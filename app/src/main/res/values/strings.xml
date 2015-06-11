@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Medieval Warfare</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="un_hint">Username</string>
+    <string name="pw_hint">Password</string>
+    <string name="button_check">Check availability</string>
+    <string name="button_login">Log in</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>
