@@ -1,0 +1,15 @@
+
+ Wat nodig is: een backend (PHP + SQL), en een frontend (HTML voor plaatsing van objecten, CSS voor hoe ze er uit zien, javascript voor communicatie met backend).
+
+Een database bevattende alle kastelen. Per kasteel is er dan een entry:
+Dit omvat:
+    -Upgrades van buildings. Lijst van alle buildings: TO BE MADE
+    -Alle manschappen behorende bij dat kasteel, eventueel waar ze uitgezonden staan
+    -6 basis-grondstoffen: Hout/Steen/X en Water/Graan/Vlees
+
+Een speler-database bevattende:
+- Link van speler,
+- Aantal kastelen dat ie heeft,
+- ID van al die kastelen, evt overeenkomstig met kaart.
+
+Verder kan elk kasteel maximaal 500 upgrades hebben. Elke upgrade duurt ongeveer 1.2x langer dan de vorige upgrade.
