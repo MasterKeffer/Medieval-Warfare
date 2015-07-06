@@ -1,3 +1,5 @@
+Raven's Joker Inn
+
 
  Wat nodig is: een backend (PHP + SQL), en een frontend (HTML voor plaatsing van objecten, CSS voor hoe ze er uit zien, javascript voor communicatie met backend).
 
@@ -12,4 +14,18 @@ Een speler-database bevattende:
 - Aantal kastelen dat ie heeft,
 - ID van al die kastelen, evt overeenkomstig met kaart.
 
-Verder kan elk kasteel maximaal 500 upgrades hebben. Elke upgrade duurt ongeveer 1.2x langer dan de vorige upgrade.
+Daarnaast is er nog een database nodig die alle triviale informatie bevat, bijvoorbeeld aantal grondstoffen dat geproduceerd worden, gegeven dat je loods level XXXX is, etc.
+
+Hoe doe je grondstoffen incrementen:
+
+Verder kan elk kasteel maximaal 500 upgrades hebben. Elke upgrade duurt ongeveer 1.2x langer dan de vorige upgrade. Het is mogelijk om 400x de gs te upgraden, en geen enkele keer de loods.
+
+
+
+
+Random ideeen die nog geimplementeerd kunnen worden:
+
+
+Zodra een kasteel 500 punten heeft, kan je 2 weken lang je kasteel incapacitaten, produceert niks,
+en dan heb je een kasteel dat naar de 1000 punten toe kan. Zodra je 5 kastelen hebt die 1000 punten zijn (En elk kasteel minimum level X van elk gebouw), maak je er een County van.
+Van 5 County's maak je een Country, en van 10 Country's kan je een MURICA maken. Elk van deze subsequente upgrades geeft je voordelen.
