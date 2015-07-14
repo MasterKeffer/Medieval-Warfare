@@ -1,0 +1,72 @@
+Kaart
+Kastelen auto maken Alpha 5
+Coordinaten systeem plus opslaag alpha 1
+
+Transport 
+GS Alpha 2
+Aanval Alpha 2
+
+Troepen:
+Deseteren Beta 4
+
+Aanval
+
+Infanterie,Calvalerie,Artellerie Alpha 1
+
+-Katapult Alpha 2 beperkte animo beta 4????
+-stormram Alpha 2
+
+Def 
+
+Infanterie,Calvalerie,Artellerie Alpha 1
+
+Teer loods ruilen/productie Alpha 3
+
+Gevecht systeem: Alpha 3
+
+
+Gebouwen: Alpha 4
+
+GS 8 varianten
+3 voor gebouwen Alpha 1
++water,graan,vlees Alpha 1
+Teer Alpha 3
+Animo katapult beta 4
+
+
+Aliance:
+Rechten
+-
+
+Inactieve
+Weg geven
+Verdwijnen 
+
+Berichten
+-PM
+-Bulk
+
+-Verslaggen
+	-Terug kijk tijd
+
+Spionnen
+-Inclusief transporten
+-Ninja's
+-Vangen???
+
+
+VM
+
+In app:
+
+Zij menu om alles te bereiken Alpha 1
+Gebouwen overview Alpha 1
+Kaart Alpha 2
+Verslagen
+Aliance:
+	-Forum
+	-Leden
+Berichten
+Overzicht over alle troepen wie wat waar: Beta 3
+Beheren veel kastelen: 2.0
+
