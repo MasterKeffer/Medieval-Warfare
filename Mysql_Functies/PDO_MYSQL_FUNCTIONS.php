@@ -1,3 +1,5 @@
+<?php
+
 /*Connect to database*/
 try{
 $conn = new PDO('mysql:host='.$db['host'].';dbname='.$db['dbname'], $db['user'], $db['pass']);
@@ -90,3 +92,4 @@ function testifvalueexist($conn,$tableName, $value, $columnName)
 		trigger_error($sMsg);
 	}
 }
+?>
