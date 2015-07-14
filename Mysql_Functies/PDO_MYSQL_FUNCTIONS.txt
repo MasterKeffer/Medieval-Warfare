@@ -58,3 +58,35 @@ function getSingleValue($conn,$tableName, $prop, $value, $columnName)
 		trigger_error($sMsg);
 	}
 }
+
+/*Kijken of een waarde al bestaat in de database
+ * connectie waarde nodig
+ * Tablenaam
+ * Waarde
+ * In welke colum
+ * 1 als de waarde bestaat 
+ * 0 als deze nog niet bestaat*/
+function testifvalueexist($conn,$tableName, $value, $columnName)
+{
+	try{
+		$sql=$conn -> prepare("SELECT 1 $columnName
+		FROM $tableName WHERE $columnName='$value' LIMIT 1"); /*Limit 1 voor snelheid*/
+		$sql->execute();/*Mysql statement uitvoeren*/ 
+		/*print_r($sql);*/
+		$result = $sql->fetch(PDO::FETCH_ASSOC);/*Resultaat in een array stoppen het is een enkele waarde dus geen for loop*/
+		/*print_r($result);*/
+		if($result[$columnName]==1){
+			return 1;
+		}else{
+			return 0;
+		}
+	}
+	catch(PDOException $e) {
+		$sMsg = '<p>
+		Regelnummer: '.$e->getLine().'<br />
+		Bestand: '.$e->getFile().'<br />
+		Foutmelding: '.$e->getMessage().'
+		</p>';
+		trigger_error($sMsg);
+	}
+}
