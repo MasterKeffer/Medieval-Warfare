@@ -92,4 +92,26 @@ function testifvalueexist($conn,$tableName, $value, $columnName)
 		trigger_error($sMsg);
 	}
 }
+/*Bijwerken van een waarde in de database
+ * table naame
+ * Aantepassen colum
+ * waarde
+ * de eise en waar deze aan moet voldoen*/
+function update_singel_value($conn,$tableName,$columnName,$value,$prop,$ID)
+{
+	try{
+		$sql=$conn -> prepare("UPDATE $tableName set $columnName='$value' where $prop='$ID' limit 1");/*De mysql statement voorbereiden*/
+		/*print_r($sql);*/		
+		$sql->execute();/*Mysql statement uitvoeren*/
+	}
+	catch(PDOException $e) {
+		$sMsg = '<p>
+			Regelnummer: '.$e->getLine().'<br />
+			Bestand: '.$e->getFile().'<br />
+			Foutmelding: '.$e->getMessage().'
+			</p>';
+		trigger_error($sMsg);
+	}
+}
+
 ?>
